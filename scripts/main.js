@@ -1,0 +1,1 @@
+import { fishes } from './fishData.js';

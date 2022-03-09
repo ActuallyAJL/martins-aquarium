@@ -1,3 +1,45 @@
-#fishtank {}
-.fish {}
-.fish_name {}
+/* pallete:
+
+#FCEADE - champagne pink
+#C17767 - copper red
+#6CCFF6 - baby blue
+#745296 - royal purple
+#211A1E - raisin black */
+
+
+
+
+main {
+    background-color: #FCEADE;
+    color: #211A1E; 
+}
+
+aside {
+    background-color: #C17767;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #745296;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #745296
+}
+
+#fishtank {
+    background-color: #6CCFF6;
+    width: 75%;
+    height: 500px;
+}
+
+.fish {
+
+}
+
+.fish_name {
+
+}
