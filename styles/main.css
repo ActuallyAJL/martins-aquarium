@@ -1,4 +1,4 @@
-/* pallete:
+/* palette:
 
 #FCEADE - champagne pink
 #C17767 - copper red
@@ -12,20 +12,30 @@
 main {
     background-color: #FCEADE;
     color: #211A1E; 
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+}
+
+body {
+    flex-direction: column;
+    display: flex;
 }
 
 aside {
     background-color: #C17767;
+    /* float: right; */
+    width: 25%;
 }
 
 header {
-    width: 100%;
+    width: 75%;
     height: 100px;
     background-color: #745296;
 }
 
 footer {
-    width: 100%;
+    width: 75%;
     height: 100px;
     background-color: #745296
 }
