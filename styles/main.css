@@ -13,12 +13,18 @@ main {
     background-color: #FCEADE;
     color: #211A1E; 
     display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+div {
+    display: flex;
     flex-direction: column;
     width: 75%;
 }
 
 body {
-    flex-direction: column;
+    flex-direction: row;
     display: flex;
 }
 
@@ -29,27 +35,27 @@ aside {
 }
 
 header {
-    width: 75%;
-    height: 100px;
+    /* width: 100%; */
+    min-height: 100px;
     background-color: #745296;
 }
 
 footer {
-    width: 75%;
-    height: 100px;
+    /* width: 100%; */
+    min-height: 100px;
     background-color: #745296
 }
 
 #fishtank {
     background-color: #6CCFF6;
-    width: 75%;
-    height: 500px;
+    width: 100%;
+    min-height: 500px;
 }
 
 .fish {
-
+    background-color: #C17767;
 }
 
 .fish_name {
-
+    background-color:#FCEADE;
 }
